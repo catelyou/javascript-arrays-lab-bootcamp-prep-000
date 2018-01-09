@@ -6,5 +6,10 @@ function destructivelyAppendKitten(kittenString) {
 
 function destructivelyPrependKitten(kittenString) {
   kittens.unshift(kittenString)
-  return kittens 
+  return kittens
+}
+
+function destructivelyRemoveLastKitten() {
+  kittens.pop()
+  return kittens
 }
