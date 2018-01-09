@@ -3,3 +3,8 @@ function destructivelyAppendKitten(kittenString) {
   kittens.push(kittenString)
   return kittens
 }
+
+function destructivelyPrependKitten(kittenString) {
+  kittens.unshift(kittenString)
+  return kittens 
+}
